@@ -6,7 +6,7 @@ import org.apache.http.client.*;
 public class httpclient {
     @Test
     public static  void  http(){
-
+    System.out.print("sdssd");
 
     }
 }
