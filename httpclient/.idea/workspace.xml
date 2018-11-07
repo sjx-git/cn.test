@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccaff7a4-b3b0-48fd-bb7d-78a000bbefb0" name="Default" comment="最初尝试了用 httpget去请求百度 成功">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cn/baokuhui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/httpclient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/httpclient.class" afterDir="false" />
+    <list default="true" id="ccaff7a4-b3b0-48fd-bb7d-78a000bbefb0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/target/test-classes/cn/baokuhui.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +31,8 @@
       <file leaf-file-name="baokuhui.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/cn/baokuhui.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="523">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -357,7 +355,7 @@
       <workItem from="1541083861919" duration="324000" />
       <workItem from="1541424057153" duration="3541000" />
       <workItem from="1541476710582" duration="18375000" />
-      <workItem from="1541594945181" duration="5088000" />
+      <workItem from="1541594945181" duration="5641000" />
     </task>
     <task id="LOCAL-00001" summary="声明了 使用 testng的版本  解决了 运行低版本jdk不支持的报错">
       <created>1541426541438</created>
@@ -373,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541427584424</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="新增了  get方法 + 请求头的demo">
+      <created>1541600186671</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541600186671</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -409,7 +414,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27328000" />
+    <option name="totallyTimeSpent" value="27881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -480,7 +485,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="声明了 使用 testng的版本  解决了 运行低版本jdk不支持的报错" />
     <MESSAGE value="最初尝试了用 httpget去请求百度 成功" />
-    <option name="LAST_COMMIT_MESSAGE" value="最初尝试了用 httpget去请求百度 成功" />
+    <MESSAGE value="新增了  get方法 + 请求头的demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增了  get方法 + 请求头的demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -555,8 +561,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cn/baokuhui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="523">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
