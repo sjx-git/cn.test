@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccaff7a4-b3b0-48fd-bb7d-78a000bbefb0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cn.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cn.test.iml" afterDir="false" />
+    <list default="true" id="ccaff7a4-b3b0-48fd-bb7d-78a000bbefb0" name="Default" comment="最初尝试了用 httpget去请求百度 成功">
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/baokuhui.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpclient.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cn/httpclient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/httpclient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/httpclient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/TestHttpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/httpclient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/httpclient.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="httpclient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="httpclient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/cn/httpclient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+            <state relative-caret-position="826">
+              <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="baokuhui.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cn/baokuhui.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,8 +45,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+            <state relative-caret-position="398">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
             </state>
           </provider>
         </entry>
@@ -76,6 +80,7 @@
         <option value="$PROJECT_DIR$/src/test/java/cn/findyou.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/cn/httpclient.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/zhuhu.java" />
       </list>
     </option>
   </component>
@@ -96,10 +101,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="406" />
+    <option name="y" value="115" />
     <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -144,8 +149,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.httpclient.http">
+  <component name="RunManager" selected="TestNG.baokuhui.zhuhu">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -238,6 +243,35 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="baokuhui.zhuhu" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="httpclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="cn" />
+      <option name="MAIN_CLASS_NAME" value="cn.baokuhui" />
+      <option name="METHOD_NAME" value="zhuhu" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration name="httpclient" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="httpclient" />
       <extension name="coverage">
@@ -300,9 +334,11 @@
       <item itemvalue="Arquillian TestNG.httplicent" />
       <item itemvalue="TestNG.httpclient" />
       <item itemvalue="TestNG.httpclient.http" />
+      <item itemvalue="TestNG.baokuhui.zhuhu" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.baokuhui.zhuhu" />
         <item itemvalue="TestNG.httpclient.http" />
         <item itemvalue="TestNG.httpclient" />
       </list>
@@ -321,6 +357,7 @@
       <workItem from="1541083861919" duration="324000" />
       <workItem from="1541424057153" duration="3541000" />
       <workItem from="1541476710582" duration="18375000" />
+      <workItem from="1541594945181" duration="5088000" />
     </task>
     <task id="LOCAL-00001" summary="声明了 使用 testng的版本  解决了 运行低版本jdk不支持的报错">
       <created>1541426541438</created>
@@ -340,27 +377,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="httpclient_http - 2018.11.06 at 16h 47m 20s.xml">
-      <configuration name="httpclient.http" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="httpclient_http - 2018.11.06 at 16h 47m 30s.xml">
-      <configuration name="httpclient.http" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="httpclient_http - 2018.11.06 at 16h 49m 04s.xml">
-      <configuration name="httpclient.http" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="httpclient_http - 2018.11.06 at 17h 02m 08s.xml">
-      <configuration name="httpclient.http" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="httpclient_http - 2018.11.06 at 17h 03m 32s.xml">
-      <configuration name="httpclient.http" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="httpclient_http - 2018.11.06 at 17h 20m 19s.xml">
-      <configuration name="httpclient.http" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="httpclient_http - 2018.11.06 at 17h 21m 01s.xml">
-      <configuration name="httpclient.http" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="httpclient_http - 2018.11.06 at 17h 24m 06s.xml">
       <configuration name="httpclient.http" configurationId="TestNG" />
     </history-entry>
@@ -370,38 +386,58 @@
     <history-entry file="httpclient_http - 2018.11.06 at 17h 25m 28s.xml">
       <configuration name="httpclient.http" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="httpclient_http - 2018.11.07 at 20h 50m 23s.xml">
+      <configuration name="httpclient.http" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="zhuhu_zhuhu - 2018.11.07 at 21h 32m 25s.xml">
+      <configuration name="zhuhu.zhuhu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="zhuhu_zhuhu - 2018.11.07 at 21h 55m 36s.xml">
+      <configuration name="zhuhu.zhuhu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="zhuhu_zhuhu - 2018.11.07 at 22h 02m 38s.xml">
+      <configuration name="zhuhu.zhuhu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="zhuhu_zhuhu - 2018.11.07 at 22h 03m 48s.xml">
+      <configuration name="zhuhu.zhuhu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="zhuhu_zhuhu - 2018.11.07 at 22h 07m 22s.xml">
+      <configuration name="zhuhu.zhuhu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="baokuhui_zhuhu - 2018.11.07 at 22h 15m 38s.xml">
+      <configuration name="baokuhui.zhuhu" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22240000" />
+    <option name="totallyTimeSpent" value="27328000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32874355" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32874355" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50076336" side_tool="true" weight="0.17537943" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50076336" side_tool="true" weight="0.17537943" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3288364" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49923664" visible="true" weight="0.40791738" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14674735" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3288364" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49923664" visible="true" weight="0.2786127" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14592275" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49923664" weight="0.38037866" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32977098" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32977098" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -454,11 +490,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/cn/httpclient.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/httpclient.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -487,45 +534,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#300#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/URLConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/URLConnection.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/findyou.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/httpclient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/findyou.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="826">
+          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        <state relative-caret-position="398">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/httpclient.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/baokuhui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        <state relative-caret-position="23">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
